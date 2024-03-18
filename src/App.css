@@ -15,24 +15,53 @@ nav {
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 90vh;
 }
 
-h1 {
-  text-align: center;
-  margin: 0 auto;
-}
-
 button {
+  display: block;
   background-color: black;
   color: rgb(46, 183, 221);
   cursor: pointer;
-  padding: 5px;
+  padding: 10px;
+  margin-right: 10px;
   border: 1px solid rgb(46, 183, 221);
 }
 
 button:hover {
   opacity: 0.6;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container {
+  display: flex;
+  padding: 10px;
+}
+
+.info-header {
+  padding-right: 5px;
+}
+
+.input-text {
+  margin-left: 10px;
+}
+
+.age-field {
+  margin-left: 20px;
 }
